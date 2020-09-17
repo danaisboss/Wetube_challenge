@@ -2,10 +2,14 @@
 	"name": "wetube_challenge",
 	"version": "1.0.0",
 	"description": "Wetube challenge with vanilla and node.js",
-	"main": "index.js",
 	"author": "terminal",
 	"license": "ISC",
+	"type": "module",
 	"dependencies": {
+		"@babel/preset-env": "^7.11.5",
 		"express": "^4.17.1"
+	},
+	"scripts": {
+		"start": "node index.js"
 	}
 }
